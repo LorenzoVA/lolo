@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#hidden-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#hidden-images img {
+    display: none;
+    width: 200px; /* Tamanho fixo para as imagens */
+    height: 150px;
+    margin: 10px;
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra suave */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+label {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+#respostaNome {
+    margin-top: 10px;
+    color: #333;
+    font-size: 18px;
+}

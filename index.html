@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te amo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <h1>Cuidado, Nova Espécie à Solta!</h1>
+
+    <div id="hidden-images">
+        <img id="image1" src="imgs/lolo1.jpg" alt="Imagem 1">
+        <img id="image2" src="imgs/lolo2.jpg" alt="Imagem 2">
+        <img id="image3" src="imgs/lolo3.jpg" alt="Imagem 3">
+    </div>
+
+    <button onclick="revealImages()">Revelar Fotos</button>
+
+    <div>
+        <label for="nomeEspecie">De um nome para a nova espécie:</label>
+        <input type="text" id="nomeEspecie" placeholder="Digite o nome">
+        <button onclick="verificarNome()">Enviar</button>
+        <p id="respostaNome"></p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
